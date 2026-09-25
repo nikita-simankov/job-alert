@@ -1,0 +1,12 @@
+# Secrets and personal data: never commit
+.env
+resume.txt
+
+# Local state
+data/
+*.sqlite3
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
